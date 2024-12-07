@@ -1,5 +1,5 @@
 
-🚀 TranspoSync – Full-Stack Project (Spring Boot & Angular) 🚌📲
+## 🚀 TranspoSync – Full-Stack Project (Spring Boot & Angular) 🚌📲
 📘 Project Overview
 TranspoSync is a full-stack application designed to seamlessly connect public transportation services with passengers. This project combines Spring Boot (Backend) and Angular (Frontend) to enable real-time communication between drivers, passengers, and transportation companies. The key goal of TranspoSync is to optimize communication, provide accurate scheduling updates, and offer personalized seat reservations based on passenger preferences (window seats, accessibility for disabled users, etc.).
 
