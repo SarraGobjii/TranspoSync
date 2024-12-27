@@ -1,9 +1,9 @@
 
 ## 🚀 TranspoSync – Full-Stack Project (Spring Boot & Angular) 🚌📲
-📘 Project Overview
+📘 **Project Overview**
 TranspoSync is a full-stack application designed to seamlessly connect public transportation services with passengers. This project combines Spring Boot (Backend) and Angular (Frontend) to enable real-time communication between drivers, passengers, and transportation companies. The key goal of TranspoSync is to optimize communication, provide accurate scheduling updates, and offer personalized seat reservations based on passenger preferences (window seats, accessibility for disabled users, etc.).
 
-🔍 Key Features
+🔍 **Key Features**
 🚏 Real-Time Transport Updates
 
 Drivers share their location and arrival times in real-time.
@@ -24,7 +24,7 @@ Integrated Firebase notifications for instant updates and alerts.
 🔹 Database: PostgreSQL
 🔹 Real-Time Notifications: Firebase
 🔹 Version Control: GitHub
-📝 Project Installation
+📝 **Project Installation**
 Prerequisites
 Before starting, ensure you have the following installed on your system:
 
@@ -41,7 +41,7 @@ cd transposync-backend
 Configure your application.properties:
 Edit the src/main/resources/application.properties file and update your database credentials:
 
-properties
+**properties**
 Copier le code
 spring.datasource.url=jdbc:postgresql://localhost:5432/transposync
 spring.datasource.username=your-username
@@ -90,7 +90,7 @@ Reservation	id, userId, transportId, seat
 Integrated Firebase Cloud Messaging to notify:
 Passengers about reservation confirmations.
 Drivers about passenger schedules and seat availability.
-📊 Contribution
+📊 **Contribution**
 We welcome contributions! If you'd like to improve or extend the application, follow these steps:
 
 Fork the project.
@@ -112,7 +112,7 @@ Create a Pull Request on the repository.
 Thanks to all contributors who have supported this project.
 Inspired by the goal of simplifying transportation communication and providing personalized experiences for passengers.
 Integration of technologies like Spring Boot, Angular, and Firebase helped achieve robust real-time functionalities.
-📧 Contact Information
+📧 **Contact Information**
 For any inquiries, support, or collaboration requests, please contact:
 
 Email: sarra.transposync@example.com
