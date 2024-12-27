@@ -19,7 +19,7 @@ public class Itineraire {
     private String route;
     private LocalDateTime heureDebut;
     private LocalDateTime heureFin;
-    @OneToMany
+
 
 //cc
 //lol
