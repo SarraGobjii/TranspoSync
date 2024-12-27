@@ -11,5 +11,5 @@ public class Vehicule {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idVehicle;
     private String localisation;
-    private String type;
+    private TypeVehicule type;
 }
