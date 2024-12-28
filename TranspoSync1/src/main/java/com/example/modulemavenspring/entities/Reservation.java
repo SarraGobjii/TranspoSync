@@ -1,9 +1,6 @@
 package com.example.modulemavenspring.entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -22,5 +19,11 @@ public class Reservation implements Serializable {
     private Long idR;
     private int seatNumber;
     private boolean accessibility;
+    @ManyToOne
+    private Passenger passenger;
+    @OneToOne (mappedBy = "reservation")
+    private Payment payment;
+    @OneToOne(mappedBy = "resevationN")
+    private Notification notification;
 
 }

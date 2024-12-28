@@ -1,9 +1,6 @@
 package com.example.modulemavenspring.entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.io.Serializable;
 @Entity
@@ -13,5 +10,9 @@ public class Notification implements Serializable {
     @Id
     private Long idN;
     private String message;
+    @OneToOne
+    private Passenger passenger;
+    @OneToOne
+    private Reservation reservationN;
 
 }
