@@ -22,4 +22,8 @@ public class Itinerary {
 
 
 
+<<<<<<< Updated upstream:TranspoSync1/src/main/java/com/example/modulemavenspring/entities/Itinerary.java
+=======
+
+>>>>>>> Stashed changes:TranspoSync1/src/main/java/com/example/modulemavenspring/entities/Itineraire.java
 }
