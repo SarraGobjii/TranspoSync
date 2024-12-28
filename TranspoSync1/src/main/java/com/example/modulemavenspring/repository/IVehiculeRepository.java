@@ -1,9 +1,9 @@
 package com.example.modulemavenspring.repository;
 
-import com.example.modulemavenspring.entities.Station;
+import com.example.modulemavenspring.entities.Vehicule;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IStationRepository extends CrudRepository<Station, Long> {
+public interface IVehiculeRepository extends CrudRepository<Vehicule, Long> {
 }
