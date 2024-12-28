@@ -10,7 +10,7 @@ public class Station {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idStation;
-    private String nom;
-    private String adresse;
+    private String name;
+    private String adress;
 
 }

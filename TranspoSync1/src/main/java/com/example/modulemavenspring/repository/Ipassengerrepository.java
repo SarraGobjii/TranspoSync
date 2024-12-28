@@ -1,4 +1,4 @@
 package com.example.modulemavenspring.repository;
 
-public class Ipassengerrepository {
+public interface Ipassengerrepository {
 }

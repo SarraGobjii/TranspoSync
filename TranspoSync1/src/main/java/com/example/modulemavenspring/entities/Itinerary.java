@@ -12,13 +12,13 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Itineraire {
+public class Itinerary {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idItineraire;
-    private String route;
-    private LocalDateTime heureDebut;
-    private LocalDateTime heureFin;
+    private Long iditinerary;
+    private String road;
+    private LocalDateTime startDate;
+    private LocalDateTime EndDate;
 
 
 

@@ -21,6 +21,6 @@ public class Passenger implements Serializable {
     private Long phoneNumber;
     @OneToMany (mappedBy = "passenger")
     private List<Reservation> reservations;
-    @OneToOne(mappedBy = "passenger")
-    private Notification notification;
+    @OneToMany(mappedBy = "passenger")
+    private List<Notification> notifications;
 }

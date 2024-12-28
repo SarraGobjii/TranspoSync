@@ -23,7 +23,7 @@ public class Reservation implements Serializable {
     private Passenger passenger;
     @OneToOne (mappedBy = "reservation")
     private Payment payment;
-    @OneToOne(mappedBy = "resevationN")
+    @OneToOne(mappedBy = "reservationN")
     private Notification notification;
 
 }

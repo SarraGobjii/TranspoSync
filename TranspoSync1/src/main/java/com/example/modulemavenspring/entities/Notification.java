@@ -3,6 +3,8 @@ package com.example.modulemavenspring.entities;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
+import java.util.List;
+
 @Entity
 public class Notification implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -10,7 +12,7 @@ public class Notification implements Serializable {
     @Id
     private Long idN;
     private String message;
-    @OneToOne
+    @ManyToOne
     private Passenger passenger;
     @OneToOne
     private Reservation reservationN;
