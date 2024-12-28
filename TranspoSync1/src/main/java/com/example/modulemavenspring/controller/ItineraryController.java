@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/itineraryController")
-public class itineraryController {
+@RequestMapping("/ItineraryController")
+public class ItineraryController {
     @Autowired
      IitineraryService itineraryService;
     @PostMapping("/additinerary")
