@@ -23,35 +23,4 @@ public class Station {
     @OneToMany(mappedBy = "station", cascade = CascadeType.ALL)
     private List<Vehicule> vehicules;
 
-    public Long getIdStation() {
-        return idStation;
-    }
-
-    public void setIdStation(Long idStation) {
-        this.idStation = idStation;
-    }
-
-    public String getNom() {
-        return nom;
-    }
-
-    public void setNom(String nom) {
-        this.nom = nom;
-    }
-
-    public String getLocalisation() {
-        return localisation;
-    }
-
-    public void setLocalisation(String localisation) {
-        this.localisation = localisation;
-    }
-
-    public List<Vehicule> getVehicules() {
-        return vehicules;
-    }
-
-    public void setVehicules(List<Vehicule> vehicules) {
-        this.vehicules = vehicules;
-    }
-}
+ }

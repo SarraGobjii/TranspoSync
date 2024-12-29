@@ -1,7 +1,7 @@
 package com.example.modulemavenspring.controller;
 
 import com.example.modulemavenspring.entities.Station;
-import com.example.modulemavenspring.service.IStationService;
+import com.example.modulemavenspring.service.IstationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +13,7 @@ import java.util.Optional;
 public class StationController {
 
     @Autowired
-    private IStationService stationService;
+    private IstationService stationService;
 
     @PostMapping
     public Station addStation(@RequestBody Station station) {

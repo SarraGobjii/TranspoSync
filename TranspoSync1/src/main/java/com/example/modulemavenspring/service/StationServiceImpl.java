@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class StationServiceImpl implements IStationService {
+public class StationServiceImpl implements IstationService {
 
     @Autowired
     private IStationRepository stationRepository;

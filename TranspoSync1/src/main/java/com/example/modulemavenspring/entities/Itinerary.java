@@ -19,11 +19,6 @@ public class Itinerary {
     private String road;
     private LocalDateTime startDate;
     private LocalDateTime EndDate;
+    @ManyToOne
+    private Vehicule vehicule;
 
-
-
-<<<<<<< Updated upstream:TranspoSync1/src/main/java/com/example/modulemavenspring/entities/Itinerary.java
-=======
-
->>>>>>> Stashed changes:TranspoSync1/src/main/java/com/example/modulemavenspring/entities/Itineraire.java
-}
