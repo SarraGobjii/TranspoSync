@@ -4,7 +4,6 @@ import com.example.modulemavenspring.entities.Vehicule;
 import com.example.modulemavenspring.repository.IVehiculeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
