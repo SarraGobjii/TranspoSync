@@ -20,11 +20,16 @@ public class Vehicule {
     private String localisation;
     private String type;
 
-    @OneToMany(mappedBy = "vehicule", cascade = CascadeType.ALL)
-    private List<Itineraire> itineraries;
-
     @ManyToOne
-    private Station station;
+    private Itineraire itineraire;
+    @ManyToOne
+    private Station StationDepart;
+    @ManyToOne
+    private Station StationArrivee;
+    @OneToMany(mappedBy = "vehicule", cascade = CascadeType.ALL)
+    private List<Reservation> reservations;
+    @ManyToMany
+    private List <Station> stations;
 
 
 }
