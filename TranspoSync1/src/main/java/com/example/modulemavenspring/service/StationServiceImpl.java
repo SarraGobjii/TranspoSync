@@ -33,4 +33,9 @@ public class StationServiceImpl implements IstationService {
     public void deleteStation(Long id) {
         stationRepository.deleteById(id);
     }
+
+    @Override
+    public Station updateStation(Long id, Station stationDetails) {
+        return null;
+    }
 }

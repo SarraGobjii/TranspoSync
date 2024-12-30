@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class VehiculeServiceImpl implements IVehiculeService {
@@ -24,14 +23,23 @@ public class VehiculeServiceImpl implements IVehiculeService {
         return (List<Vehicule>) vehiculeRepository.findAll();
     }
 
-    @Override
-    public Optional<Vehicule> getVehiculeById(Long id) {
-        return vehiculeRepository.findById(id);
-    }
 
     @Override
     public void deleteVehicule(Long id) {
         vehiculeRepository.deleteById(id);
     }
+
+    @Override
+    public Vehicule getVehicleById(Long id) {
+        return null;
+    }
+
+    @Override
+    public Vehicule updateVehicle(Long id, Vehicule vehicleDetails) {
+        return null;
+    }
+
+
 }
+
 

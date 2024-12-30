@@ -1,6 +1,7 @@
 package com.example.modulemavenspring.controller;
 
 import com.example.modulemavenspring.entities.Station;
+import com.example.modulemavenspring.entities.Vehicule;
 import com.example.modulemavenspring.service.IstationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -29,9 +30,14 @@ public class StationController {
     public Optional<Station> getStationById(@PathVariable Long id) {
         return stationService.getStationById(id);
     }
+    @PutMapping("/{id}")
+    public Station updateStation(@PathVariable Long id, @RequestBody Station stationDetails) {
+        return stationService.updateStation(id, stationDetails);
+    }
 
     @DeleteMapping("/{id}")
     public void deleteStation(@PathVariable Long id) {
         stationService.deleteStation(id);
     }
+
 }

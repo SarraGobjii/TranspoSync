@@ -26,9 +26,15 @@ public class VehiculeController {
     }
 
     @GetMapping("/{id}")
-    public Optional<Vehicule> getVehiculeById(@PathVariable Long id) {
-        return vehiculeService.getVehiculeById(id);
+    public Vehicule getVehicleById(@PathVariable Long id) {
+        return vehiculeService.getVehicleById(id);
     }
+
+    @PutMapping("/{id}")
+    public Vehicule updateVehicle(@PathVariable Long id, @RequestBody Vehicule vehicleDetails) {
+        return vehiculeService.updateVehicle(id, vehicleDetails);
+    }
+
 
     @DeleteMapping("/{id}")
     public void deleteVehicule(@PathVariable Long id) {

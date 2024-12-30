@@ -10,4 +10,6 @@ public interface IstationService {
     List<Station> getAllStations();
     Optional<Station> getStationById(Long id);
     void deleteStation(Long id);
+
+    Station updateStation(Long id, Station stationDetails);
 }

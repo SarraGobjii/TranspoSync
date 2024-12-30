@@ -21,7 +21,7 @@ public class Vehicule {
     private String type;
 
     @OneToMany(mappedBy = "vehicule", cascade = CascadeType.ALL)
-    private List<Itinerary> itineraries;
+    private List<Itineraire> itineraries;
 
     @ManyToOne
     private Station station;
