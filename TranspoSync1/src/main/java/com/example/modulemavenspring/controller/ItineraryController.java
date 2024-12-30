@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/ItineraryController")
@@ -23,7 +24,7 @@ public class ItineraryController {
 
     @GetMapping("/{id}")
     public Optional<Itinerary> getItineraireById(@PathVariable Long id) {
-        return itineraireService.getItineraireById(id);
+        return IitineraryService.getItineraireById(id);
     }
 
     @DeleteMapping("/{id}")
