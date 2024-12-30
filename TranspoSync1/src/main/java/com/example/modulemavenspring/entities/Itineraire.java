@@ -7,6 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Getter
@@ -26,6 +27,6 @@ public class Itineraire {
     private String duree;
     private String trajet;
 
-    @ManyToOne
-    private Vehicule vehicule;
+    @OneToMany
+    private List<Vehicule> vehicules;
 }
