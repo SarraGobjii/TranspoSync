@@ -25,5 +25,7 @@ public class Reservation implements Serializable {
     private Payment payment;
     @OneToOne(mappedBy = "reservationN")
     private Notification notification;
+    @ManyToOne
+    private Vehicule vehicule;
 
 }
