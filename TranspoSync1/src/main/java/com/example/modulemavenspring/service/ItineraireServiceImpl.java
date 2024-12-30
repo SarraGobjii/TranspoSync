@@ -35,10 +35,5 @@ public class ItineraireServiceImpl implements IItineraireService {
 
     @Override
     public Itineraire updateItineraire(Long id, Itineraire itineraireDetails) {
-        if (itineraireRepository.existsById(id)) {
-            itineraireDetails.setId(id);  // Assure que l'ID reste inchangé lors de la mise à jour
-            return itineraireRepository.save(itineraireDetails);  // Sauvegarde les modifications
-        }
-        return null;
-    }
-}
+        return itineraireRepository.save(itineraireDetails);
+}}
