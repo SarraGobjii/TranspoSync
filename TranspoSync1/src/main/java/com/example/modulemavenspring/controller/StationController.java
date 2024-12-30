@@ -16,26 +16,26 @@ public class StationController {
     @Autowired
     private IstationService stationService;
 
-    @PostMapping
+    @PostMapping("/addStation")
     public Station addStation(@RequestBody Station station) {
         return stationService.saveStation(station);
     }
 
-    @GetMapping
+    @GetMapping("/getAllStations")
     public List<Station> getAllStations() {
         return stationService.getAllStations();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/getStation/{id}")
     public Optional<Station> getStationById(@PathVariable Long id) {
         return stationService.getStationById(id);
     }
-    @PutMapping("/{id}")
+    @PutMapping("/updateStation/{id}")
     public Station updateStation(@PathVariable Long id, @RequestBody Station stationDetails) {
         return stationService.updateStation(id, stationDetails);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/deleteStation/{id}")
     public void deleteStation(@PathVariable Long id) {
         stationService.deleteStation(id);
     }

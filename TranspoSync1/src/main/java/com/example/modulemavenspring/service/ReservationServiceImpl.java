@@ -1,34 +1,37 @@
 package com.example.modulemavenspring.service;
 
 import com.example.modulemavenspring.entities.Reservation;
+import com.example.modulemavenspring.repository.Ireservationrepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class ReservationServiceImpl implements IreservationService {
-    @Override
-    public Reservation addReservation(Reservation reservation) {
-        return null;
-    }
+        Ireservationrepository reservationRepository;
 
-    @Override
-    public List<Reservation> retrieveAllReservations() {
-        return null;
-    }
+        @Override
+        public Reservation addReservation(Reservation reservation) {
+            return reservationRepository.save(reservation);
+        }
 
-    @Override
-    public Reservation retrieveReservation(Long idR) {
-        return null;
-    }
+        @Override
+        public List<Reservation> retrieveAllReservations() {
+            return (List<Reservation>) reservationRepository.findAll();
+        }
 
-    @Override
-    public void removeReservation(Long idR) {
+        @Override
+        public Reservation retrieveReservation(Long idR) {
+            return reservationRepository.findById(idR).orElse(null);
+        }
 
-    }
+        @Override
+        public void removeReservation(Long idR) {
+            reservationRepository.deleteById(idR);
+        }
 
-    @Override
-    public Reservation modifyReservation(Reservation reservation) {
-        return null;
+        @Override
+        public Reservation modifyReservation(Reservation reservation) {
+            return reservationRepository.save(reservation);
+        }
     }
-}

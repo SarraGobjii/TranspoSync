@@ -16,27 +16,27 @@ public class ItineraireController {
     private IItineraireService itineraireService;
 
 
-    @GetMapping("/all")
+    @GetMapping("/getAllItineraires")
     public List<Itineraire> getAllItineraires() {
         return itineraireService.getAllItineraires();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("getItineraire/{id}")
     public Itineraire getItineraireById(@PathVariable Long id) {
         return itineraireService.getItineraireById(id);
     }
 
-    @PostMapping("/create")
+    @PostMapping("/createItineraire")
     public Itineraire createItineraire(@RequestBody Itineraire itineraire) {
         return itineraireService.createItineraire(itineraire);
     }
 
-    @PutMapping("/update/{id}")
+    @PutMapping("/updateItineraire/{id}")
     public Itineraire updateItineraire(@PathVariable Long id, @RequestBody Itineraire updatedItineraire) {
         return itineraireService.updateItineraire(id, updatedItineraire);
     }
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/deleteItineraire/{id}")
     public void deleteItineraire(@PathVariable Long id) {
         itineraireService.deleteItineraire(id);
     }

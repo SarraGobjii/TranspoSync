@@ -15,28 +15,28 @@ public class VehiculeController {
     @Autowired
     private IVehiculeService vehiculeService;
 
-    @PostMapping
+    @PostMapping("/addVehicule")
     public Vehicule addVehicule(@RequestBody Vehicule vehicule) {
         return vehiculeService.saveVehicule(vehicule);
     }
 
-    @GetMapping
+    @GetMapping("/getAllVehicule")
     public List<Vehicule> getAllVehicules() {
         return vehiculeService.getAllVehicules();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/getVehicule/{id}")
     public Vehicule getVehicleById(@PathVariable Long id) {
         return vehiculeService.getVehicleById(id);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/updateVehicule/{id}")
     public Vehicule updateVehicle(@PathVariable Long id, @RequestBody Vehicule vehicleDetails) {
         return vehiculeService.updateVehicle(id, vehicleDetails);
     }
 
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/deleteVehicule/{id}")
     public void deleteVehicule(@PathVariable Long id) {
         vehiculeService.deleteVehicule(id);
     }
