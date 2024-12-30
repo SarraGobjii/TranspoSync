@@ -18,7 +18,7 @@ public class PassengerServiceImpl implements IpassengerService {
     }
 
     @Override
-    public Passenger retrieveNotification(Long id) {
+    public Passenger retrievePassenger(Long id) {
         return null;
     }
 

@@ -11,6 +11,7 @@ public class Notification implements Serializable {
 
     @Id
     private Long idN;
+    private String title;
     private String message;
     @ManyToOne
     private Passenger passenger;

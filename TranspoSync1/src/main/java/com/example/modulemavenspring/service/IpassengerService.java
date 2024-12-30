@@ -8,7 +8,7 @@ import java.util.List;
 public interface IpassengerService {
     public Passenger addPassenger (Passenger passenger);
     public List<Passenger> retrieveAllPassengers();
-    public  Passenger retrieveNotification(Long  id);
+    public  Passenger retrievePassenger(Long  id);
     public void removePassenger   (Long id);
     public  Passenger   modifyPassenger   (Passenger passenger);
 }

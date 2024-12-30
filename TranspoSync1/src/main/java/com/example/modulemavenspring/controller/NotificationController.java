@@ -1,12 +1,12 @@
 package com.example.modulemavenspring.controller;
 
 import com.example.modulemavenspring.entities.Notification;
+import com.example.modulemavenspring.entities.Vehicule;
 import com.example.modulemavenspring.service.InotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/NotificationController")
@@ -14,7 +14,25 @@ public class NotificationController {
     @Autowired
     InotificationService notificationService;
     @PostMapping("/addNotification")
-    public addNotification(@RequestBody Notification notification){
-        return InotificationService.save(notification);
+    public Notification addNotification(@RequestBody Notification notification){
+        return notificationService.addNotification(notification);
     }
+    @GetMapping("/getNotification/{idN}")
+    public Notification retrieveNotification(@PathVariable Long idN) {
+        return notificationService.retrieveNotification(idN);
+    }
+    @GetMapping("/getAllNotifications")
+    public List<Notification> retrieveAllNotifications() {
+        return notificationService.retrieveAllNotifications();
+    }
+    @DeleteMapping("/deleteNotification/{idN}")
+    public void removeNotification(@PathVariable Long idN) {
+        notificationService.removeNotification(idN);
+    }
+
+    @PostMapping("/modifyNotification/{idN}")
+    public Notification modifyNotification(@PathVariable Long idN, @RequestBody Notification notification) {
+        return notificationService.modifyNotification(notification);
+    }
+
 }

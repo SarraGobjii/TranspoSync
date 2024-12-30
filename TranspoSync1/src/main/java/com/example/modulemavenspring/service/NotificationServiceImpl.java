@@ -18,21 +18,20 @@ public class NotificationServiceImpl implements InotificationService {
 
     @Override
     public List<Notification> retrieveAllNotifications() {
-        return notificationrepository.findAll(noti);
+        return (List<Notification>) notificationrepository.findAll();
     }
-
     @Override
     public Notification retrieveNotification(Long idN) {
-        return null;
+        return notificationrepository.findById(idN).orElse(null);
     }
 
     @Override
     public void removeNotification(Long idN) {
-
+        notificationrepository.deleteById(idN);
     }
 
     @Override
     public Notification modifyNotification(Notification notification) {
-        return null;
+        return notificationrepository.save(notification);
     }
 }
