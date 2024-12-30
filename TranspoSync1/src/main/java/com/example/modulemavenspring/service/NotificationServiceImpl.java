@@ -1,20 +1,24 @@
 package com.example.modulemavenspring.service;
 
 import com.example.modulemavenspring.entities.Notification;
+import com.example.modulemavenspring.repository.Inotificationrepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class NotificationServiceImpl implements InotificationService {
+    @Autowired
+    Inotificationrepository notificationrepository;
     @Override
     public Notification addNotification(Notification notification) {
-        return null;
+        return notificationrepository.save(notification);
     }
 
     @Override
     public List<Notification> retrieveAllNotifications() {
-        return null;
+        return notificationrepository.findAll(noti);
     }
 
     @Override
