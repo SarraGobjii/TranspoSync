@@ -1,5 +1,6 @@
 package com.example.modulemavenspring.service;
 
+import com.example.modulemavenspring.entities.Itineraire;
 import com.example.modulemavenspring.entities.Vehicule;
 import com.example.modulemavenspring.repository.IVehiculeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +31,7 @@ public class VehiculeServiceImpl implements IVehiculeService {
 
     @Override
     public Vehicule getVehicleById(Long id) {
-        return null;
+        return (Vehicule) vehiculeRepository.findAll();
     }
 
     @Override
