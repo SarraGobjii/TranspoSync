@@ -19,10 +19,9 @@ public class Itineraire {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Temporal(TemporalType.TIME)
+
     private Time heureDebut;
 
-    @Temporal(TemporalType.TIME)
     private Time heureFin;
     @Transient
     private String duree;
