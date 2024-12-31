@@ -35,7 +35,7 @@ public class ReservationController {
         reservationService.removeReservation(idR);
     }
 
-    @PostMapping("/modifyReservation/{idR}")
+    @PutMapping("/modifyReservation/{idR}")
     public Reservation modifyReservation(@PathVariable Long idR, @RequestBody Reservation reservation) {
         return reservationService.modifyReservation(reservation);
     }

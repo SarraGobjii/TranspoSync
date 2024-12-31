@@ -31,7 +31,7 @@ public class PassengerController {
     public void removePassenger(@PathVariable Long id) {
         passengerService.removePassenger(id);
     }
-    @PostMapping("/modifyPassenger/{id}")
+    @PutMapping("/modifyPassenger/{id}")
     public Passenger modifyPassenger(@PathVariable Long id, @RequestBody Passenger passenger) {
         return passengerService.modifyPassenger(passenger);
     }

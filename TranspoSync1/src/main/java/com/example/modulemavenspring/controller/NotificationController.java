@@ -30,7 +30,7 @@ public class NotificationController {
         notificationService.removeNotification(idN);
     }
 
-    @PostMapping("/modifyNotification/{idN}")
+    @PutMapping("/modifyNotification/{idN}")
     public Notification modifyNotification(@PathVariable Long idN, @RequestBody Notification notification) {
         return notificationService.modifyNotification(notification);
     }

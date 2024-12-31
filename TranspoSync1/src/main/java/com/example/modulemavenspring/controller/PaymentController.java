@@ -33,7 +33,7 @@ public class PaymentController {
         paymentService.removePayment(idP);
     }
 
-    @PostMapping("/modifyPayment/{idP}")
+    @PutMapping("/modifyPayment/{idP}")
     public Payment modifyPayment(@PathVariable Long idP, @RequestBody Payment payment) {
         return paymentService.modifyPayment(payment);
     }
