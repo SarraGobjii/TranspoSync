@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serializable;
 import java.sql.Time;
 import java.util.Date;
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.List;
 @Entity
 @Getter
 @Setter
-public class Itineraire {
+public class Itineraire implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
