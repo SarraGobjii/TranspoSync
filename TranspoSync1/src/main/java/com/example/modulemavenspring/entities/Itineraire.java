@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import java.io.Serializable;
 import java.sql.Time;
+import java.time.LocalTime;
 import java.util.Date;
 import java.util.List;
 
@@ -21,9 +22,9 @@ public class Itineraire implements Serializable {
     private Long id;
 
 
-    private Time heureDebut;
+    private LocalTime heureDebut;
 
-    private Time heureFin;
+    private LocalTime heureFin;
     private String trajet;
 
     @OneToMany
