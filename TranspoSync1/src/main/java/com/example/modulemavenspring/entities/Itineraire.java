@@ -24,7 +24,7 @@ public class Itineraire {
 
     @Temporal(TemporalType.TIME)
     private Time heureFin;
-
+    @Transient
     private String duree;
     private String trajet;
 
