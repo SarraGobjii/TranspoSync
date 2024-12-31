@@ -23,8 +23,8 @@ public class Itineraire {
     private Time heureDebut;
 
     private Time heureFin;
-    @Transient
-    private String duree;
+    //@Transient
+    //private String duree;
     private String trajet;
 
     @OneToMany
