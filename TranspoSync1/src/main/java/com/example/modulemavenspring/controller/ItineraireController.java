@@ -28,6 +28,7 @@ public class ItineraireController {
 
     @PostMapping("/createItineraire")
     public Itineraire createItineraire(@RequestBody Itineraire itineraire) {
+        System.out.println("Received Itineraire: " + itineraire);
         return itineraireService.createItineraire(itineraire);
     }
 
