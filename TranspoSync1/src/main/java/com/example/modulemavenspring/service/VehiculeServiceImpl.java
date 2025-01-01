@@ -30,12 +30,12 @@ public class VehiculeServiceImpl implements IVehiculeService {
     }
 
     @Override
-    public Vehicule getVehicleById(Long id) {
+    public Vehicule getVehiculeById(Long id) {
         return (Vehicule) vehiculeRepository.findAll();
     }
 
     @Override
-    public Vehicule updateVehicle(Long id, Vehicule vehicleDetails) {
+    public Vehicule updateVehicule(Long id, Vehicule vehicleDetails) {
         return vehiculeRepository.save(vehicleDetails);
     }
 

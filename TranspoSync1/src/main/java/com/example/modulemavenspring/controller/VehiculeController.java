@@ -26,13 +26,13 @@ public class VehiculeController {
     }
 
     @GetMapping("/getVehicule/{id}")
-    public Vehicule getVehicleById(@PathVariable Long id) {
-        return vehiculeService.getVehicleById(id);
+    public Vehicule getVehiculeById(@PathVariable Long id) {
+        return vehiculeService.getVehiculeById(id);
     }
 
     @PutMapping("/updateVehicule/{id}")
-    public Vehicule updateVehicle(@PathVariable Long id, @RequestBody Vehicule vehicleDetails) {
-        return vehiculeService.updateVehicle(id, vehicleDetails);
+    public Vehicule updateVehicle(@PathVariable Long id, @RequestBody Vehicule vehicule) {
+        return vehiculeService.updateVehicule(id,vehicule);
     }
 
 
