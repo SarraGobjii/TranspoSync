@@ -29,7 +29,6 @@ public class Itineraire implements Serializable {
     //@Transient
     //private String duree;
     private String trajet;
-    @JsonIgnore
     @OneToMany
     private List<Vehicule> vehicules;
 }
