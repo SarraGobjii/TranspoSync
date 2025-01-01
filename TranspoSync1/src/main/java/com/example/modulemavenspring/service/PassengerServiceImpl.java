@@ -2,13 +2,15 @@ package com.example.modulemavenspring.service;
 
 import com.example.modulemavenspring.entities.Passenger;
 import com.example.modulemavenspring.repository.Ipassengerrepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class PassengerServiceImpl implements IpassengerService {
-        Ipassengerrepository passengerRepository;
+    @Autowired
+    private Ipassengerrepository passengerRepository;
 
         @Override
         public Passenger addPassenger(Passenger passenger) {

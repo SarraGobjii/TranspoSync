@@ -2,13 +2,15 @@ package com.example.modulemavenspring.service;
 
 import com.example.modulemavenspring.entities.Reservation;
 import com.example.modulemavenspring.repository.Ireservationrepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class ReservationServiceImpl implements IreservationService {
-        Ireservationrepository reservationRepository;
+    @Autowired
+    private Ireservationrepository reservationRepository;
 
         @Override
         public Reservation addReservation(Reservation reservation) {

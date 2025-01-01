@@ -11,7 +11,7 @@ import java.util.Optional;
 @Service
 public class NotificationServiceImpl implements InotificationService {
     @Autowired
-    Inotificationrepository notificationrepository;
+    private Inotificationrepository notificationrepository;
 
     @Override
     public Notification addNotification(Notification notification) {
