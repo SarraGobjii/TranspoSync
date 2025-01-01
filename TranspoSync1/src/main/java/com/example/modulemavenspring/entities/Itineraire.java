@@ -24,15 +24,10 @@ public class Itineraire implements Serializable {
 
 
     private LocalTime heureDebut;
-<<<<<<<<< Temporary merge branch 1
 
     private LocalTime heureFin;
-=========
-    private LocalTime heureFin;
-
     //@Transient
     //private String duree;
->>>>>>>>> Temporary merge branch 2
     private String trajet;
     @JsonIgnore
     @OneToMany
