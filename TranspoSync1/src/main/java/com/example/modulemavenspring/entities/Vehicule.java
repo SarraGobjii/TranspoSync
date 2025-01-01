@@ -17,6 +17,8 @@ public class Vehicule {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idVehicule;
+    //for testing
+    //private String Licence;
     private String localisation;
     private String type;
 
