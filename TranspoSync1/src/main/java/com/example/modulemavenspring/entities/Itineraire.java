@@ -26,8 +26,8 @@ public class Itineraire implements Serializable {
     private LocalTime heureDebut;
 
     private LocalTime heureFin;
-    //@Transient
-    //private String duree;
+    @Transient
+    private String duree;
     private String trajet;
     @OneToMany
     private List<Vehicule> vehicules;
