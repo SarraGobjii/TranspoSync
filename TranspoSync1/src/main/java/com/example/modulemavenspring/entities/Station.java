@@ -16,7 +16,6 @@ public class Station {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idStation;
-
     private String nom;
     private String localisation;
 

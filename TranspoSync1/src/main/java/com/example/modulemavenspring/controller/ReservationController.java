@@ -20,17 +20,17 @@ public class ReservationController {
         return reservationService.addReservation(reservation);
     }
 
-    @GetMapping("/getReservation/{idR}")
+    @GetMapping("/getReservation/{idR}") //validée
     public Reservation retrieveReservation(@PathVariable Long idR) {
         return reservationService.retrieveReservation(idR);
     }
 
-    @GetMapping("/getAllReservations")
+    @GetMapping("/getAllReservations") //validée
     public List<Reservation> retrieveAllReservations() {
         return reservationService.retrieveAllReservations();
     }
 
-    @DeleteMapping("/deleteReservation/{idR}")
+    @DeleteMapping("/deleteReservation/{idR}") //validée
     public void removeReservation(@PathVariable Long idR) {
         reservationService.removeReservation(idR);
     }

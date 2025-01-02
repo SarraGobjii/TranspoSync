@@ -15,29 +15,29 @@ public class VehiculeController {
     @Autowired
     private IVehiculeService vehiculeService;
 
-    @PostMapping("/addVehicule")
+    @PostMapping("/addVehicule") //validée
     public Vehicule addVehicule(@RequestBody Vehicule vehicule) {
         return vehiculeService.saveVehicule(vehicule);
     }
 
-    @GetMapping("/getAllVehicule")
+    @GetMapping("/getAllVehicule") //validée
     public List<Vehicule> getAllVehicules() {
         return vehiculeService.getAllVehicules();
     }
 
-    @GetMapping("/getVehicule/{id}")
-    public Vehicule getVehiculeById(@PathVariable Long id) {
-        return vehiculeService.getVehiculeById(id);
+    @GetMapping("/getVehicule/{idVehicule}") //non validée
+    public Vehicule getVehicleById(@PathVariable Long idVehicule) {
+        return vehiculeService.getVehicleById(idVehicule);
     }
 
-    @PutMapping("/updateVehicule/{id}")
-    public Vehicule updateVehicle(@PathVariable Long id, @RequestBody Vehicule vehicule) {
-        return vehiculeService.updateVehicule(id,vehicule);
+    @PutMapping("/updateVehicule/{idVehicule}") //ferghaa
+    public Vehicule updateVehicle(@PathVariable Long idVehicule, @RequestBody Vehicule vehicule) {
+        return vehiculeService.updateVehicle(idVehicule, vehicule);
     }
 
 
-    @DeleteMapping("/deleteVehicule/{id}")
-    public void deleteVehicule(@PathVariable Long id) {
-        vehiculeService.deleteVehicule(id);
+    @DeleteMapping("/deleteVehicule/{idVehicule}") //validée
+    public void deleteVehicule(@PathVariable Long idVehicule) {
+        vehiculeService.deleteVehicule(idVehicule);
     }
 }
