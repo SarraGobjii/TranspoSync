@@ -25,9 +25,9 @@ public class Vehicule {
     @ManyToOne
     private Itineraire itineraire;
     @ManyToOne
-    private Station StationDepart;
+    private Station stationDepart;
     @ManyToOne
-    private Station StationArrivee;
+    private Station stationArrivee;
     @OneToMany(mappedBy = "vehicule", cascade = CascadeType.ALL)
     private List<Reservation> reservations;
     @ManyToMany

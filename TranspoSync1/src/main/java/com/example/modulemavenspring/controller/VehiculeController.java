@@ -27,12 +27,12 @@ public class VehiculeController {
 
     @GetMapping("/getVehicule/{idVehicule}") //non validée
     public Vehicule getVehicleById(@PathVariable Long idVehicule) {
-        return vehiculeService.getVehicleById(idVehicule);
+        return vehiculeService.getVehiculeById(idVehicule);
     }
 
     @PutMapping("/updateVehicule/{idVehicule}") //ferghaa
     public Vehicule updateVehicle(@PathVariable Long idVehicule, @RequestBody Vehicule vehicule) {
-        return vehiculeService.updateVehicle(idVehicule, vehicule);
+        return vehiculeService.updateVehicule(idVehicule, vehicule);
     }
 
 

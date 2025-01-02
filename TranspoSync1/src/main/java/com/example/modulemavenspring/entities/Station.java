@@ -19,10 +19,10 @@ public class Station {
     private String nom;
     private String localisation;
 
-    @OneToMany(mappedBy = "StationDepart", cascade = CascadeType.ALL)
-    private List<Vehicule> vehicules;
-    @OneToMany(mappedBy = "StationArrivee",cascade = CascadeType.ALL)
-    private List<Vehicule> vehicule;
+    @OneToMany(mappedBy = "stationDepart", cascade = CascadeType.ALL)
+    private List<Vehicule> vehiculesDepart;
+    @OneToMany(mappedBy = "stationArrivee",cascade = CascadeType.ALL)
+    private List<Vehicule> vehiculesArrivee;
     @ManyToMany
     private List<Vehicule> VehiculesPassantes;
 
