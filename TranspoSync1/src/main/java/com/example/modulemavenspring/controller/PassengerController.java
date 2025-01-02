@@ -12,28 +12,27 @@ import java.util.List;
 public class PassengerController {
     @Autowired
     IpassengerService passengerService;
-    @PostMapping("/addPassenger")
+    @PostMapping("/addPassenger") //validée
     public Passenger addPassenger(@RequestBody Passenger passenger) {
         return passengerService.addPassenger(passenger);
     }
 
-    @GetMapping("/getPassenger/{id}")
+    @GetMapping("/getPassenger/{id}") //validée
     public Passenger retrievePassenger(@PathVariable Long id) {
         return passengerService.retrievePassenger(id);
     }
 
-    @GetMapping("/getAllPassengers")
+    @GetMapping("/getAllPassengers") //validée
     public List<Passenger> retrieveAllPassengers() {
         return passengerService.retrieveAllPassengers();
     }
 
-    @DeleteMapping("/deletePassenger/{id}")
+    @DeleteMapping("/deletePassenger/{id}") //validée
     public void removePassenger(@PathVariable Long id) {
         passengerService.removePassenger(id);
     }
-    @PutMapping("/modifyPassenger/{id}")
+    @PutMapping("/modifyPassenger/{id}") //validéé
     public Passenger modifyPassenger(@PathVariable Long id, @RequestBody Passenger passenger) {
         return passengerService.modifyPassenger(passenger);
     }
-
 }

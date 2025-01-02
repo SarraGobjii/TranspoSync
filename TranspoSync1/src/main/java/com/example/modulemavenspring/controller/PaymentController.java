@@ -13,27 +13,27 @@ public class PaymentController {
     @Autowired
     IpaymentService paymentService;
 
-    @PostMapping("/addPayment")
+    @PostMapping("/addPayment") //validée
     public Payment addPayment(@RequestBody Payment payment) {
         return paymentService.addPayment(payment);
     }
 
-    @GetMapping("/getPayment/{idP}")
+    @GetMapping("/getPayment/{idP}") //validée
     public Payment retrievePayment(@PathVariable Long idP) {
         return paymentService.retrievePayment(idP);
     }
 
-    @GetMapping("/getAllPayments")
+    @GetMapping("/getAllPayments") //validée
     public List<Payment> retrieveAllPayments() {
         return paymentService.retrieveAllPayments();
     }
 
-    @DeleteMapping("/deletePayment/{idP}")
+    @DeleteMapping("/deletePayment/{idP}") //validée
     public void removePayment(@PathVariable Long idP) {
         paymentService.removePayment(idP);
     }
 
-    @PutMapping("/modifyPayment/{idP}")
+    @PutMapping("/modifyPayment/{idP}") //validée
     public Payment modifyPayment(@PathVariable Long idP, @RequestBody Payment payment) {
         return paymentService.modifyPayment(payment);
     }

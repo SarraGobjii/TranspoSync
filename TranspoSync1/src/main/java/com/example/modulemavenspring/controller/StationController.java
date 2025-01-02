@@ -14,7 +14,7 @@ import java.util.Optional;
 public class StationController {
 
     @Autowired
-    private IstationService stationService;
+    IstationService stationService;
 
     @PostMapping("/addStation")
     public Station addStation(@RequestBody Station station) {
