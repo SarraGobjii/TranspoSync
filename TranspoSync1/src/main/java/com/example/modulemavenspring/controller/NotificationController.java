@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/NotificationController")
 public class NotificationController {
     @Autowired
-    InotificationService notificationService;
+    private InotificationService notificationService;
     @PostMapping("/addNotification")
     public Notification addNotification(@RequestBody Notification notification){
         return notificationService.addNotification(notification);

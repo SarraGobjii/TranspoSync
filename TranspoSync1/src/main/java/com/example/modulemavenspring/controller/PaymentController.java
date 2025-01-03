@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/PaymentController")
 public class PaymentController {
     @Autowired
-    IpaymentService paymentService;
+    private IpaymentService paymentService;
 
     @PostMapping("/addPayment") //validée
     public Payment addPayment(@RequestBody Payment payment) {

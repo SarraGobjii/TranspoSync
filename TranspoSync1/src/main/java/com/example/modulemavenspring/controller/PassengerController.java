@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/PassengerController")
 public class PassengerController {
     @Autowired
-    IpassengerService passengerService;
+    private IpassengerService passengerService;
     @PostMapping("/addPassenger") //validée
     public Passenger addPassenger(@RequestBody Passenger passenger) {
         return passengerService.addPassenger(passenger);

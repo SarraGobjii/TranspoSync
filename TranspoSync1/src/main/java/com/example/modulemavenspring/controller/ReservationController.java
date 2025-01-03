@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/ReservationController")
 public class ReservationController {
     @Autowired
-    IreservationService reservationService;
+    private IreservationService reservationService;
     @PostMapping("/addReservation")
     public Reservation addReservation(@RequestBody Reservation reservation) {
         return reservationService.addReservation(reservation);
