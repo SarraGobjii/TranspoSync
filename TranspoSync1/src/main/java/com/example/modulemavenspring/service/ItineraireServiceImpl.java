@@ -21,7 +21,8 @@ public class ItineraireServiceImpl implements IItineraireService {
 
     @Override
     public List<Itineraire> getAllItineraires() {
-        return (List<Itineraire>) itineraireRepository.findAll();  }
+        return (List<Itineraire>) itineraireRepository.findAll();
+    }
 
     @Override
     public Itineraire getItineraireById(Long id) {
@@ -30,7 +31,7 @@ public class ItineraireServiceImpl implements IItineraireService {
 
     @Override
     public void deleteItineraire(Long id) {
-        itineraireRepository.deleteById(id);  // Supprime l'itinéraire avec l'ID donné
+        itineraireRepository.deleteById(id);
     }
 
     @Override

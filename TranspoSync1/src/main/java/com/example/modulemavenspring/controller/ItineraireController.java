@@ -9,12 +9,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/itineraire")
+@RequestMapping("/itineraires")
 public class ItineraireController {
 
     @Autowired
     private IItineraireService itineraireService;
-
 
     @GetMapping("/getAllItineraires")
     public List<Itineraire> getAllItineraires() {
