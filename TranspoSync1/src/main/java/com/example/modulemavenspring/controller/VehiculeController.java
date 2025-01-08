@@ -30,7 +30,7 @@ public class VehiculeController {
         return vehiculeService.getVehiculeById(idVehicule);
     }
 
-    @PutMapping("/updateVehicule/{idVehicule}") //ferghaa
+    @PutMapping("/updateVehicule/{idVehicule}")//
     public Vehicule updateVehicle(@PathVariable Long idVehicule, @RequestBody Vehicule vehicule) {
         return vehiculeService.updateVehicule(idVehicule, vehicule);
     }

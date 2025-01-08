@@ -22,8 +22,8 @@ public class Itineraire implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Time heureDebut;
-    private Time heureFin;
+    private LocalTime heureDebut;
+    private LocalTime heureFin;
     @Transient
     private String duree;
     private String trajet;
