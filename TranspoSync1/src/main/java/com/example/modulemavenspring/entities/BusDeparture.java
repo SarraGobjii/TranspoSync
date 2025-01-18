@@ -1,5 +1,4 @@
-package main.java.com.example.modulemavenspring.entities;
-
+package com.example.modulemavenspring.entities;
 public enum BusDeparture {
 
 }
