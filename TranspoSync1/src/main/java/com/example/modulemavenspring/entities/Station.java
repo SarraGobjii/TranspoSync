@@ -24,6 +24,6 @@ public class Station {
     @OneToMany(mappedBy = "stationArrivee",cascade = CascadeType.ALL)
     private List<Vehicule> vehiculesArrivee;
     @ManyToMany
-    private List<Vehicule> VehiculesPassantes;
+    private List<Vehicule> vehiculesPassantes;
 
  }

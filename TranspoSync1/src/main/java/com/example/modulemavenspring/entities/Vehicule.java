@@ -17,8 +17,6 @@ public class Vehicule {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idVehicule;
-    //for testing
-    //private String Licence;
     private String localisation;
     private String type;
 
@@ -33,5 +31,10 @@ public class Vehicule {
     @ManyToMany
     private List <Station> stations;
 
+    private int nombrePlaces;
+
+    public int getNombrePlaces() {
+        return this.nombrePlaces;
+    }
 
 }

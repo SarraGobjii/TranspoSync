@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
+import java.time.temporal.Temporal;
 
 @Getter
 @Setter
@@ -27,5 +29,7 @@ public class Reservation implements Serializable {
     private Notification notification;
     @ManyToOne
     private Vehicule vehicule;
+    private LocalDateTime endDate;
+
 
 }
