@@ -11,5 +11,5 @@ public interface IstationService {
     Optional<Station> getStationById(Long id);
     void deleteStation(Long id);
 
-    Station updateStation(Long id, Station stationDetails);
+    Station updateStation(Station station);
 }

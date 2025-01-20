@@ -34,7 +34,7 @@ public class StationServiceImpl implements IstationService {
     }
 
     @Override
-    public Station updateStation(Long id, Station stationDetails) {
-        return stationRepository.save(stationDetails);
+    public Station updateStation(Station station) {
+        return stationRepository.save(station);
     }
 }
