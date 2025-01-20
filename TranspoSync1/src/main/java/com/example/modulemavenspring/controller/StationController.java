@@ -31,8 +31,8 @@ public class StationController {
         return stationService.getStationById(id);
     }
     @PutMapping("/updateStation/{id}")
-    public Station updateStation(@PathVariable Long id, @RequestBody Station stationDetails) {
-        return stationService.updateStation(id, stationDetails);
+    public Station updateStation(@PathVariable Long id, @RequestBody Station station) {
+        return stationService.updateStation(station);
     }
 
     @DeleteMapping("/deleteStation/{id}")

@@ -30,11 +30,6 @@ public class Vehicule {
     private List<Reservation> reservations;
     @ManyToMany
     private List <Station> stations;
-
     private int nombrePlaces;
-
-    public int getNombrePlaces() {
-        return this.nombrePlaces;
-    }
 
 }
