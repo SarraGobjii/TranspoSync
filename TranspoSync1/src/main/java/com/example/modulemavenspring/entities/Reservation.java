@@ -29,5 +29,7 @@ public class Reservation implements Serializable {
     private Notification notification;
     @ManyToOne
     private Vehicule vehicule;
+    private LocalDateTime endDate;
+
 
 }
