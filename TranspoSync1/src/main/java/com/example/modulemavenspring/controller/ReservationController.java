@@ -21,21 +21,6 @@ public class ReservationController {
     @Autowired
     private IreservationService reservationService;
 
-
-    @GetMapping("/available-seats")
-    public ResponseEntity<Map<String, List<Integer>>> getAvailableSeats(
-            @RequestParam Long vehiculeId,
-            @RequestParam Long stationId) {
-        // Appel du service
-        Map<String, List<Integer>> result = reservationService.getAvailableSeats(vehiculeId, stationId);
-        return ResponseEntity.ok(result);
-    }
-    @GetMapping("/seat-statuses/{vehiculeId}")
-    public ResponseEntity<Map<Integer, SeatStatus>> getSeatStatuses(@PathVariable Long vehiculeId) {
-        // Appel du service pour obtenir les statuts des sièges
-        Map<Integer, SeatStatus> statuses = reservationService.getSeatStatuses(vehiculeId);
-        return ResponseEntity.ok(statuses);
-    }
     @PostMapping("/addReservation")
     public Reservation addReservation(@RequestBody Reservation reservation) {
         return reservationService.addReservation(reservation);
