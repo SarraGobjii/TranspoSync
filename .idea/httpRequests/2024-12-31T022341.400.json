@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-12-31T01:23:41.740+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/transposync/NotificationController/addNotification"
+}

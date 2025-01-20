@@ -1,0 +1,10 @@
+POST http://localhost:9090/transposync/NotificationController/addNotification
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-12-31T022341.400.json
+
+###
+

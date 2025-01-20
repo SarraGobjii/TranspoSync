@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db564699-5017-4019-b1e8-f38c018affb5" name="Changes" comment="enum string">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2qo6mg4IxuYzWMmXLNYj6aFldv1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hitec/OneDrive/Bureau/ProjetFullStackWeb/TranspoSync&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.19921875&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21270162&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ModuleMavenSpringApplication">
+    <configuration name="generated-requests | #18" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="18" requestIdentifier="#18" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #27" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="27" requestIdentifier="#27" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #29" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="29" requestIdentifier="#29" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ModuleMavenSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="TranspoSync1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.modulemavenspring.ModuleMavenSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #29" />
+        <item itemvalue="HTTP Request.generated-requests | #27" />
+        <item itemvalue="HTTP Request.generated-requests | #18" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db564699-5017-4019-b1e8-f38c018affb5" name="Changes" comment="" />
+      <created>1735316740442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735316740442</updated>
+      <workItem from="1735316741468" duration="51888000" />
+      <workItem from="1735568262377" duration="16298000" />
+      <workItem from="1735754821135" duration="19800000" />
+      <workItem from="1736000566200" duration="2000" />
+      <workItem from="1736171210233" duration="4068000" />
+      <workItem from="1736342335655" duration="4328000" />
+      <workItem from="1736350861627" duration="6660000" />
+      <workItem from="1736460264801" duration="476000" />
+    </task>
+    <task id="LOCAL-00001" summary="entities">
+      <option name="closed" value="true" />
+      <created>1735331305028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735331305028</updated>
+    </task>
+    <task id="LOCAL-00002" summary="application.properties">
+      <option name="closed" value="true" />
+      <created>1735331690790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735331690790</updated>
+    </task>
+    <task id="LOCAL-00003" summary="enumération de véhicule">
+      <option name="closed" value="true" />
+      <created>1735331721306</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735331721306</updated>
+    </task>
+    <task id="LOCAL-00004" summary="entity véhicule">
+      <option name="closed" value="true" />
+      <created>1735331781412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735331781412</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changes">
+      <option name="closed" value="true" />
+      <created>1735334460367</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735334460367</updated>
+    </task>
+    <task id="LOCAL-00006" summary="associations (gestion utilisateur et réservation)">
+      <option name="closed" value="true" />
+      <created>1735395559935</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735395559935</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new commit">
+      <option name="closed" value="true" />
+      <created>1735409080487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735409080487</updated>
+    </task>
+    <task id="LOCAL-00008" summary="itinerary">
+      <option name="closed" value="true" />
+      <created>1735410553758</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735410553758</updated>
+    </task>
+    <task id="LOCAL-00009" summary="itinerary">
+      <option name="closed" value="true" />
+      <created>1735410641093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735410641093</updated>
+    </task>
+    <task id="LOCAL-00010" summary="controller w services ( ne9sin return des méthodes">
+      <option name="closed" value="true" />
+      <created>1735504301398</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735504301398</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changes">
+      <option name="closed" value="true" />
+      <created>1735559996475</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735559996475</updated>
+    </task>
+    <task id="LOCAL-00012" summary="changes">
+      <option name="closed" value="true" />
+      <created>1735561893720</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735561893720</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Controllers">
+      <option name="closed" value="true" />
+      <created>1735567421380</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735567421380</updated>
+    </task>
+    <task id="LOCAL-00014" summary="associations vehicule">
+      <option name="closed" value="true" />
+      <created>1735569595030</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735569595030</updated>
+    </task>
+    <task id="LOCAL-00015" summary="NotificationServiceImpl">
+      <option name="closed" value="true" />
+      <created>1735570344642</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1735570344642</updated>
+    </task>
+    <task id="LOCAL-00016" summary="return des services +mapping controller">
+      <option name="closed" value="true" />
+      <created>1735599461257</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1735599461257</updated>
+    </task>
+    <task id="LOCAL-00017" summary="méthodes update (vehicule, station , itinerarie)">
+      <option name="closed" value="true" />
+      <created>1735599667748</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1735599667748</updated>
+    </task>
+    <task id="LOCAL-00018" summary="new">
+      <option name="closed" value="true" />
+      <created>1735604361705</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1735604361705</updated>
+    </task>
+    <task id="LOCAL-00019" summary="new">
+      <option name="closed" value="true" />
+      <created>1735605959071</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1735605959071</updated>
+    </task>
+    <task id="LOCAL-00020" summary="new">
+      <option name="closed" value="true" />
+      <created>1735606369504</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1735606369504</updated>
+    </task>
+    <task id="LOCAL-00021" summary="new">
+      <option name="closed" value="true" />
+      <created>1735606426840</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1735606426840</updated>
+    </task>
+    <task id="LOCAL-00022" summary="changes in application.properties..">
+      <option name="closed" value="true" />
+      <created>1735746122256</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1735746122256</updated>
+    </task>
+    <task id="LOCAL-00023" summary="changes in application.properties..">
+      <option name="closed" value="true" />
+      <created>1735754884530</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1735754884530</updated>
+    </task>
+    <task id="LOCAL-00024" summary="pom.xml">
+      <option name="closed" value="true" />
+      <created>1735755349325</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1735755349325</updated>
+    </task>
+    <task id="LOCAL-00025" summary="pom.xml">
+      <option name="closed" value="true" />
+      <created>1735755932357</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1735755932357</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added @Autowired">
+      <option name="closed" value="true" />
+      <created>1735758425530</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1735758425530</updated>
+    </task>
+    <task id="LOCAL-00027" summary="remove @JsonIgnore">
+      <option name="closed" value="true" />
+      <created>1735759668596</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1735759668596</updated>
+    </task>
+    <task id="LOCAL-00028" summary="remove @JsonIgnore">
+      <option name="closed" value="true" />
+      <created>1735762752077</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1735762752077</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added getters and setters to Notification class">
+      <option name="closed" value="true" />
+      <created>1735848554392</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1735848554392</updated>
+    </task>
+    <task id="LOCAL-00030" summary="added constructors to itineraire class">
+      <option name="closed" value="true" />
+      <created>1735848599703</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1735848599703</updated>
+    </task>
+    <task id="LOCAL-00031" summary="bd">
+      <option name="closed" value="true" />
+      <created>1736198238898</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1736198238898</updated>
+    </task>
+    <task id="LOCAL-00032" summary="enumération trajet">
+      <option name="closed" value="true" />
+      <created>1736358879854</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1736358879854</updated>
+    </task>
+    <task id="LOCAL-00033" summary="enum string">
+      <option name="closed" value="true" />
+      <created>1736359704429</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1736359704429</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="entities" />
+    <MESSAGE value="application.properties" />
+    <MESSAGE value="enumération de véhicule" />
+    <MESSAGE value="entity véhicule" />
+    <MESSAGE value="associations (gestion utilisateur et réservation)" />
+    <MESSAGE value="new commit" />
+    <MESSAGE value="itinerary" />
+    <MESSAGE value="controller w services ( ne9sin return des méthodes" />
+    <MESSAGE value="changes" />
+    <MESSAGE value="Controllers" />
+    <MESSAGE value="associations vehicule" />
+    <MESSAGE value="NotificationServiceImpl" />
+    <MESSAGE value="return des services +mapping controller" />
+    <MESSAGE value="méthodes update (vehicule, station , itinerarie)" />
+    <MESSAGE value="new" />
+    <MESSAGE value="changes in application.properties.." />
+    <MESSAGE value="pom.xml" />
+    <MESSAGE value="added @Autowired" />
+    <MESSAGE value="remove @JsonIgnore" />
+    <MESSAGE value="added getters and setters to Notification class" />
+    <MESSAGE value="added constructors to itineraire class" />
+    <MESSAGE value="bd" />
+    <MESSAGE value="enumération trajet" />
+    <MESSAGE value="enum string" />
+    <option name="LAST_COMMIT_MESSAGE" value="enum string" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TranspoSync1/src/main/java/com/example/modulemavenspring/controller/ItineraireController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
