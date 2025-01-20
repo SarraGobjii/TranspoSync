@@ -20,7 +20,7 @@ import java.io.Serializable;
 public class Admin implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idAdmin;
+    private Long idAdmin;
     private String username;
     private Long password;
 
