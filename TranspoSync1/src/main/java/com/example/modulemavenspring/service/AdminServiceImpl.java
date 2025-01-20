@@ -1,7 +1,6 @@
 package com.example.modulemavenspring.service;
 
 import com.example.modulemavenspring.entities.Admin;
-import com.example.modulemavenspring.entities.Itineraire;
 import com.example.modulemavenspring.repository.IAdminRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
