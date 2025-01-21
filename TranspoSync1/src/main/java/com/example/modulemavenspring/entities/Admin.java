@@ -22,6 +22,6 @@ public class Admin implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idAdmin;
     private String username;
-    private Long password;
+    private String password;
 
 }

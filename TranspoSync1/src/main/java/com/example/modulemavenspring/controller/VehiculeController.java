@@ -9,7 +9,8 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/vehicules")
+@RequestMapping("vehicules")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class VehiculeController {
 
     @Autowired

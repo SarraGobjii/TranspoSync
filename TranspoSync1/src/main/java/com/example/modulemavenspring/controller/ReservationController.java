@@ -17,14 +17,10 @@ public class ReservationController {
     @Autowired
     private IreservationService reservationService;
 
-<<<<<<< Updated upstream
     @PostMapping("/addReservation")
     public Reservation addReservation(@RequestBody Reservation reservation) {
         return reservationService.addReservation(reservation);
     }
-
-=======
->>>>>>> Stashed changes
 
     @GetMapping("/getReservation/{idR}") //validée
     public Reservation retrieveReservation(@PathVariable Long idR) {
