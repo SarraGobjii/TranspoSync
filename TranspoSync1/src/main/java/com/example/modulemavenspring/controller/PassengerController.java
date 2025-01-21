@@ -9,6 +9,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/PassengerController")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
+
 public class PassengerController {
     @Autowired
     private IpassengerService passengerService;

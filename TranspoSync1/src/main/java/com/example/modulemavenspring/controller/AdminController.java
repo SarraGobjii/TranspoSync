@@ -10,6 +10,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/AdminController")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
+
 public class AdminController {
     @Autowired
     private IAdminService adminService;

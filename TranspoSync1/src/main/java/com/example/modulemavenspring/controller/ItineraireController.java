@@ -10,6 +10,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/itineraires")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
+
 public class ItineraireController {
 
     @Autowired
