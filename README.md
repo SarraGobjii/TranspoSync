@@ -1,19 +1,35 @@
 
-## 🚀 TranspoSync – Full-Stack Project (Spring Boot & Angular) 🚌📲📘 Overview
-TranspoSync is a full-stack app connecting public transport services with passengers using Spring Boot (Backend) and Angular (Frontend). It offers real-time updates, personalized seat selection, and smooth communication.
+🚀 TranspoSync – Full-Stack Project 🚌📲
+📘 Overview
+TranspoSync connects public transport services with passengers via Spring Boot (Backend) and Angular (Frontend). It facilitates scheduling updates, personalized seat selection, and improved communication.
 
 🔍 Features
-Real-Time Updates: Drivers share locations; passengers get instant notifications.
-Seat Reservations: Passengers choose seats (e.g., window, accessible).
-User-Friendly UI: Responsive design with Angular for easy navigation.
-Communication: Instant updates via Firebase notifications.
+Transport Updates: Drivers share schedules; passengers access accurate timing information.
+Seat Selection: Choose seats based on preferences (e.g., window, accessible).
+User-Friendly UI: Responsive Angular interface for smooth navigation.
 🛠️ Tech Stack
 Backend: Spring Boot
 Frontend: Angular
-Database: PostgreSQL
-Notifications: Firebase
+Database: MySQL
 Version Control: GitHub
 📝 Installation
 Prerequisites:
 
-Java 17+, Node.js, npm, PostgreSQL, Git
+Java 17+, Node.js, npm, MySQL, Git
+Structure:
+
+bash
+Copier
+Modifier
+/backend  
+    /src/main/java/com.transposync  
+        - Controllers  
+        - Services  
+        - Repositories  
+        - Models  
+/frontend  
+    /src/app  
+        - reservation.component.ts  
+        - transport.component.ts  
+        - routing.module.ts  
+        - shared components & services  
