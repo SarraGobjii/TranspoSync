@@ -34,37 +34,7 @@ PostgreSQL
 Git
 🚀 Backend (Spring Boot)
 Clone the Repository:
-bash
-Copier le code
-git clone https://github.com/username/transposync-backend.git
-cd transposync-backend
-Configure your application.properties:
-Edit the src/main/resources/application.properties file and update your database credentials:
 
-**properties**
-Copier le code
-spring.datasource.url=jdbc:postgresql://localhost:5432/transposync
-spring.datasource.username=your-username
-spring.datasource.password=your-password
-Build and Run the Backend:
-bash
-Copier le code
-mvn clean install
-mvn spring-boot:run
-⚛️ Frontend (Angular)
-Navigate to the Frontend folder:
-bash
-Copier le code
-cd ../transposync-frontend
-Install dependencies:
-bash
-Copier le code
-npm install
-Run the Angular Application:
-bash
-Copier le code
-ng serve
-Access the application at: http://localhost:4200.
 
 🔗 Project Structure
 bash
@@ -81,39 +51,4 @@ Copier le code
         - transport.component.ts
         - routing.module.ts
         - shared components & services
-📈 Database Schema
-Table	Fields
-User	id, name, email, password
-Transport	id, location, schedule, driverId
-Reservation	id, userId, transportId, seat
-🔥 Real-Time Notifications
-Integrated Firebase Cloud Messaging to notify:
-Passengers about reservation confirmations.
-Drivers about passenger schedules and seat availability.
-📊 **Contribution**
-We welcome contributions! If you'd like to improve or extend the application, follow these steps:
 
-Fork the project.
-Create a new branch:
-bash
-Copier le code
-git checkout -b feature-branch-name
-Commit your changes:
-bash
-Copier le code
-git add .
-git commit -m "Add your feature or fix description"
-Push to GitHub:
-bash
-Copier le code
-git push origin feature-branch-name
-Create a Pull Request on the repository.
-🙏 Acknowledgments
-Thanks to all contributors who have supported this project.
-Inspired by the goal of simplifying transportation communication and providing personalized experiences for passengers.
-Integration of technologies like Spring Boot, Angular, and Firebase helped achieve robust real-time functionalities.
-📧 **Contact Information**
-For any inquiries, support, or collaboration requests, please contact:
-
-Email: sarra.transposync@example.com
-GitHub: https://github.com/username
