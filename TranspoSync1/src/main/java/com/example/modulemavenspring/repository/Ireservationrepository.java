@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface Ireservationrepository extends CrudRepository<Reservation, Long> {
-    List<Reservation> findByVehiculeId(Long vehiculeId);
+    //List<Reservation> findByVehiculeId(Long vehiculeId);
 }
